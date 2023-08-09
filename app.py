@@ -8,7 +8,7 @@ app = Flask(__name__)
 chatbot = ChatGPTBotAPI()
 
 # Initialize the chatbot with the OpenAI API key
-chatbot.initialize_gpt3('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')  # replace with your API key
+chatbot.initialize_gpt3('APIKey')  # replace with your API key
 
 @app.route('/create_prompt', methods=['POST'])
 def create_prompt():
