@@ -26,7 +26,6 @@ pip install -r requirements.txt
 
 4. **Set Your OpenAI API Key**:
 - Open `app.py` and replace the placeholder API key with your actual OpenAI API key.
-- For better security, consider using environment variables or secret management tools instead of hardcoding the API key.
 
 5. **Run the Flask App**:
 
